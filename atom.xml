@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-03-09T14:02:08.405Z</updated>
+  <updated>2023-03-10T09:13:58.112Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,24 +17,25 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Title</title>
+    <title>Markdown 基本语法在 Ocean 中的展现形式</title>
     <link href="http://example.com/2023/03/09/jzl/"/>
     <id>http://example.com/2023/03/09/jzl/</id>
     <published>2023-03-09T13:41:28.000Z</published>
-    <updated>2023-03-09T14:02:08.405Z</updated>
+    <updated>2023-03-10T09:13:58.112Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Markdown语法主要分为如下几大部分：&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;Markdown 基本语法在 Ocean 中的展现形式，此文根据&lt;a href=&quot;https://markdown.com.cn/basic-syntax/&quot;&gt;https://markdown.com.cn/basic-syntax/&lt;/a&gt;获取，为了为自己查阅语法方便</summary>
         
       
     
     
     
+    
+    <category term="Markdown" scheme="http://example.com/tags/Markdown/"/>
     
   </entry>
   
@@ -43,16 +44,8 @@
     <link href="http://example.com/2023/03/09/hello-world/"/>
     <id>http://example.com/2023/03/09/hello-world/</id>
     <published>2023-03-09T12:54:44.211Z</published>
-    <updated>2023-03-09T12:54:03.882Z</updated>
+    <updated>2023-03-10T09:03:00.800Z</updated>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
     
     
     
