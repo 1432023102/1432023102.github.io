@@ -3,45 +3,58 @@
   <entry>
     <title>Markdown 基本语法在 Ocean 中的展现形式</title>
     <url>/2023/03/09/jzl/</url>
-    <content><![CDATA[<p>Markdown 基本语法在 Ocean 中的展现形式，此文根据<a href="https://markdown.com.cn/basic-syntax/">https://markdown.com.cn/basic-syntax/</a>获取，为了为自己查阅语法方便 ！</p>
+    <content><![CDATA[<p>Markdown 基本语法在 Ocean 中的展现形式，此文根据<a class="link"   href="https://markdown.com.cn/basic-syntax/" >https://markdown.com.cn/basic-syntax/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>获取，为了为自己查阅语法方便 ！</p>
 <h1 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容  "></a>主要内容  </h1><hr>
 <h2 id="1-标题语法"><a href="#1-标题语法" class="headerlink" title="1.标题语法"></a>1.标题语法</h2><p>Markdown 支持两种标题的语法<br>1）在文本下方添加任意数量的 &#x3D;&#x3D; 号来标识一级标题，或者 – 号来标识二级标题。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">=========</span><br><span class="line">二级标题</span><br><span class="line">---------</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">一级标题</span><br><span class="line">=========</span><br><span class="line">二级标题</span><br><span class="line">---------</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>2）使用#，可表示1-6级标题。</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2></blockquote>
+<p>2）使用#，可表示1-6级标题。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
-<h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<blockquote>
+<h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+<hr>
 <h2 id="2-段落语法"><a href="#2-段落语法" class="headerlink" title="2.段落语法"></a>2.段落语法</h2><p>段落的前后要有空行，所谓的空行是指没有文字内容。不要用空格（spaces）或制表符（ tabs）缩进段落。</p>
 <p>在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行（引用中换行省略回车）。</p>
 <hr>
 <h2 id="3-强调语法"><a href="#3-强调语法" class="headerlink" title="3.强调语法"></a>3.强调语法</h2><p>通过将文本设置为粗体或斜体来强调其重要性</p>
 <h3 id="3-1-粗体（Bold）"><a href="#3-1-粗体（Bold）" class="headerlink" title="3.1 粗体（Bold）"></a>3.1 粗体（Bold）</h3><p>要加粗文本，请在单词或短语的前后各添加两个星号（*）或下划线（_）。如需加粗一个单词或短语的中间部分用以表示强调的话，请在要加粗部分的两侧各添加两个星号（**）。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I just love **bold text**.</span><br><span class="line">I just love __bold text__.</span><br><span class="line">Love**is**bold</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">I just love **bold text**.</span><br><span class="line">I just love __bold text__.</span><br><span class="line">Love**is**bold</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br>I just love <strong>bold text</strong>.<br>I just love <strong>bold text</strong>.<br>Love<strong>is</strong>bold</p>
+<p><strong>效果：</strong></p>
+<blockquote>
+<p>I just love <strong>bold text</strong>.<br>I just love <strong>bold text</strong>.<br>Love<strong>is</strong>bold</p>
+</blockquote>
 <h3 id="3-2-斜体（Italic）"><a href="#3-2-斜体（Italic）" class="headerlink" title="3.2 斜体（Italic）"></a>3.2 斜体（Italic）</h3><p>要用斜体显示文本，请在单词或短语前后添加一个星号（*）或下划线（_）。要斜体突出单词的中间部分，请在字母前后各添加一个星号，中间不要带空格。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Italicized text is the *cat&#x27;s meow*.</span><br><span class="line">Italicized text is the _cat&#x27;s meow_.</span><br><span class="line">A*cat*meow</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Italicized text is the *cat&#x27;s meow*.</span><br><span class="line">Italicized text is the _cat&#x27;s meow_.</span><br><span class="line">A*cat*meow</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br>Italicized text is the <em>cat’s meow</em>.<br>Italicized text is the <em>cat’s meow</em>.<br>A<em>cat</em>meow</p>
+<p><strong>效果：</strong></p>
+<blockquote>
+<p>Italicized text is the <em>cat’s meow</em>.<br>Italicized text is the <em>cat’s meow</em>.<br>A<em>cat</em>meow</p>
+</blockquote>
 <h3 id="3-3-粗体（Bold）和斜体（Italic）"><a href="#3-3-粗体（Bold）和斜体（Italic）" class="headerlink" title="3.3 粗体（Bold）和斜体（Italic）"></a>3.3 粗体（Bold）和斜体（Italic）</h3><p>要同时用粗体和斜体突出显示文本，请在单词或短语的前后各添加三个星号或下划线。要加粗并用斜体显示单词或短语的中间部分，请在要突出显示的部分前后各添加三个星号，中间不要带空格。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">This text is ***really important***.</span><br><span class="line">This text is ___really important___.</span><br><span class="line">This text is __*really important*__.</span><br><span class="line">This text is **_really important_**.</span><br><span class="line">This is really ***very*** important text.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">This text is ***really important***.</span><br><span class="line">This text is ___really important___.</span><br><span class="line">This text is __*really important*__.</span><br><span class="line">This text is **_really important_**.</span><br><span class="line">This is really ***very*** important text.</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br>This text is <em><strong>really important</strong></em>.<br>This text is <em><strong>really important</strong></em>.<br>This text is <strong><em>really important</em></strong>.<br>This text is <strong><em>really important</em></strong>.<br>This is really <em><strong>very</strong></em> important text.</p>
+<p><strong>效果：</strong></p>
+<blockquote>
+<p>This text is <em><strong>really important</strong></em>.<br>This text is <em><strong>really important</strong></em>.<br>This text is <strong><em>really important</em></strong>.<br>This text is <strong><em>really important</em></strong>.<br>This is really <em><strong>very</strong></em> important text.</p>
+</blockquote>
 <hr>
 <h2 id="4-引用语法"><a href="#4-引用语法" class="headerlink" title="4.引用语法"></a>4.引用语法</h2><h3 id="4-1-块引用"><a href="#4-1-块引用" class="headerlink" title="4.1 块引用"></a>4.1 块引用</h3><p>要创建块引用，请在段落前添加一个 &gt; 符号。</p>
 <p><strong>例子：</strong><br>    &gt; Dorothy followed her through many of the beautiful rooms in her castle.</p>
 <p><strong>效果：</strong><br>Dorothy followed her through many of the beautiful rooms in her castle.</p>
 <h3 id="4-2-多个段落的块引用"><a href="#4-2-多个段落的块引用" class="headerlink" title="4.2 多个段落的块引用"></a>4.2 多个段落的块引用</h3><p>块引用可以包含多个段落。为段落之间的空白行添加一个 &gt; 符号。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
 <blockquote>
@@ -50,7 +63,7 @@
 </blockquote>
 <h3 id="4-3-嵌套块引用"><a href="#4-3-嵌套块引用" class="headerlink" title="4.3 嵌套块引用"></a>4.3 嵌套块引用</h3><p>块引用可以嵌套。在要嵌套的段落前添加一个 &gt;&gt; 符号。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; Dorothy followed her through many of the beautiful rooms in her castle.</span><br><span class="line">&gt;</span><br><span class="line">&gt;&gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
 <blockquote>
@@ -61,7 +74,7 @@
 </blockquote>
 <h3 id="4-4-带有其它元素的块引用"><a href="#4-4-带有其它元素的块引用" class="headerlink" title="4.4 带有其它元素的块引用"></a>4.4 带有其它元素的块引用</h3><p>块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt; #### The quarterly results look great!</span><br><span class="line">&gt;</span><br><span class="line">&gt; - Revenue was off the chart.</span><br><span class="line">&gt; - Profits were higher than ever.</span><br><span class="line">&gt;</span><br><span class="line">&gt;  *Everything* is going according to **plan**.</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
 <blockquote>
@@ -73,7 +86,7 @@
 </blockquote>
 <h3 id="4-5-HEXO中用法"><a href="#4-5-HEXO中用法" class="headerlink" title="4.5 HEXO中用法"></a>4.5 HEXO中用法</h3><p>使用标签插件、可以使用任何格式书写你的文章，但标签插件永远可用，且语法也都是一致的，形势如下：</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote %&#125;  </span><br><span class="line">Hello world!  </span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote %&#125;  </span><br><span class="line">Hello world!  </span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure></div>
 <p><strong>效果：</strong></p>
 <blockquote><p>Hello world!</p>
 </blockquote>
@@ -82,27 +95,31 @@
 <h2 id="5-列表语法"><a href="#5-列表语法" class="headerlink" title="5.列表语法"></a>5.列表语法</h2><p>可以将多个条目组织成有序或无序列表。</p>
 <h3 id="5-1-有序列表"><a href="#5-1-有序列表" class="headerlink" title="5.1 有序列表"></a>5.1 有序列表</h3><p>要创建<strong>有序</strong>列表，请在每个列表项前添加数字并紧跟一个英文句点，后加空格。数字不必按数学顺序排列，但是列表应当以数字 1 起始。无论数字顺序（除第一个外）如何，后续序号会依次顺序排列。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. A</span><br><span class="line">2. B</span><br><span class="line">   1. B1</span><br><span class="line">   2. B2</span><br><span class="line">4. D</span><br><span class="line">8. E</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">1. A</span><br><span class="line">2. B</span><br><span class="line">   1. B1</span><br><span class="line">   2. B2</span><br><span class="line">4. D</span><br><span class="line">8. E</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
+<blockquote>
 <ol>
 <li>A</li>
-<li>B<ol>
+<li>B</li>
+</ol>
+</blockquote>
+<ol>
 <li>B1</li>
 <li>B2</li>
-</ol>
-</li>
 <li>D</li>
 <li>E</li>
 </ol>
 <h3 id="5-2-无序列表"><a href="#5-2-无序列表" class="headerlink" title="5.2 无序列表"></a>5.2 无序列表</h3><p>要创建无序列表，请在每个列表项前面添加破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- A</span><br><span class="line">* B</span><br><span class="line">+ C</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- A</span><br><span class="line">* B</span><br><span class="line">+ C</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
+<blockquote>
 <ul>
 <li>A</li>
 </ul>
+</blockquote>
 <ul>
 <li>B</li>
 </ul>
@@ -111,7 +128,7 @@
 </ul>
 <h3 id="5-3-在列表中嵌套其他元素"><a href="#5-3-在列表中嵌套其他元素" class="headerlink" title="5.3 在列表中嵌套其他元素"></a>5.3 在列表中嵌套其他元素</h3><p>要在保留列表连续性的同时在列表中添加另一种元素，请将该元素缩进四个空格或一个制表符，如下例所示：</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   This is the first list item.</span><br><span class="line">*   Here&#x27;s the second list item.</span><br><span class="line"></span><br><span class="line">    I need to add another paragraph below the second list item.</span><br><span class="line"></span><br><span class="line">    &gt; A blockquote would look great below the second list item.</span><br><span class="line"></span><br><span class="line">        &lt;html&gt;</span><br><span class="line">          &lt;head&gt;</span><br><span class="line">            &lt;title&gt;Test&lt;/title&gt;</span><br><span class="line">          &lt;/head&gt;</span><br><span class="line">    </span><br><span class="line">    - Indented item</span><br><span class="line">    - Indented item</span><br><span class="line">*   And here&#x27;s the third list item.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">*   This is the first list item.</span><br><span class="line">*   Here&#x27;s the second list item.</span><br><span class="line"></span><br><span class="line">    I need to add another paragraph below the second list item.</span><br><span class="line"></span><br><span class="line">    &gt; A blockquote would look great below the second list item.</span><br><span class="line"></span><br><span class="line">        &lt;html&gt;</span><br><span class="line">          &lt;head&gt;</span><br><span class="line">            &lt;title&gt;Test&lt;/title&gt;</span><br><span class="line">          &lt;/head&gt;</span><br><span class="line">    </span><br><span class="line">    - Indented item</span><br><span class="line">    - Indented item</span><br><span class="line">*   And here&#x27;s the third list item.</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
 <ul>
@@ -136,17 +153,15 @@
 </li>
 </ul>
 <p>代码块通常采用四个空格或一个制表符缩进。当它们被放在列表中时，请将它们缩进八个空格或两个制表符。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">void <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(“Hello, Markdown.”);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
 <hr>
 <h2 id="6-代码语法"><a href="#6-代码语法" class="headerlink" title="6.代码语法"></a>6.代码语法</h2><p>要将单词或短语表示为代码，请将其包裹在反引号 (&#96;) 中。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">At the command prompt, type `nano`.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">At the command prompt, type `nano`.</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong><br>At the command prompt, type <code>nano</code>.</p>
 <p>要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;</span><br><span class="line">  &lt;head&gt;</span><br><span class="line">  &lt;/head&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
 <pre><code>&lt;html&gt;
@@ -155,9 +170,16 @@
 &lt;/html&gt;
 </code></pre>
 <hr>
+<p><strong>HEXO自带语法</strong></p>
+<p><strong>例子：</strong></p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">``` bash</span><br><span class="line">void main()</span><br><span class="line">&#123;</span><br><span class="line">printf(“Hello, Markdown.”);</span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure></div>
+
+<p><strong>效果：</strong></p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line">void <span class="function"><span class="title">main</span></span>()</span><br><span class="line">&#123;</span><br><span class="line"><span class="built_in">printf</span>(“Hello, Markdown.”);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div>
+
 <h2 id="7-分隔线语法"><a href="#7-分隔线语法" class="headerlink" title="7.分隔线语法"></a>7.分隔线语法</h2><p>要创建分隔线，请在单独一行上使用三个或多个星号 (***)、破折号 (—) 或下划线 (___) ，并且不能包含其他内容。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Try to put a blank line before...</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">_________________</span><br><span class="line"></span><br><span class="line">...and after a horizontal rule.</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Try to put a blank line before...</span><br><span class="line"></span><br><span class="line">***</span><br><span class="line"></span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">_________________</span><br><span class="line"></span><br><span class="line">...and after a horizontal rule.</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong><br>Try to put a blank line before…</p>
 <hr>
@@ -169,33 +191,33 @@
 <p>超链接Markdown语法代码：<code>[超链接显示名](超链接地址 &quot;超链接title&quot;)</code></p>
 <p>对应的HTML代码：<code>&lt;a href=&quot;超链接地址&quot; title=&quot;超链接title&quot;&gt;超链接显示名&lt;/a&gt;</code></p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn)。</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn)。</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br>这是一个链接 <a href="https://markdown.com.cn/">Markdown语法</a>。</p>
+<p><strong>效果：</strong><br>这是一个链接 <a class="link"   href="https://markdown.com.cn/" >Markdown语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
 <h3 id="给链接增加-Title"><a href="#给链接增加-Title" class="headerlink" title="给链接增加 Title"></a>给链接增加 Title</h3><p>链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个链接 [Markdown语法](https://markdown.com.cn &quot;最好的markdown教程&quot;)。</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br>这是一个链接 <a href="https://markdown.com.cn/" title="最好的markdown教程">Markdown语法</a>。</p>
+<p><strong>效果：</strong><br>这是一个链接 <a class="link"   href="https://markdown.com.cn/"  title="最好的markdown教程">Markdown语法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>。</p>
 <h3 id="网址和Email地址"><a href="#网址和Email地址" class="headerlink" title="网址和Email地址"></a>网址和Email地址</h3><p>使用尖括号可以很方便地把URL或者email地址变成可点击的链接。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;https://markdown.com.cn&gt;</span><br><span class="line">&lt;fake@example.com&gt;</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br><a href="https://markdown.com.cn/">https://markdown.com.cn</a><br><a href="mailto:&#x66;&#97;&#107;&#101;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#111;&#x6d;">&#x66;&#97;&#107;&#101;&#64;&#x65;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#111;&#x6d;</a></p>
+<p><strong>效果：</strong><br><a class="link"   href="https://markdown.com.cn/" >https://markdown.com.cn <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br><a class="link"   href="mailto:&#102;&#x61;&#107;&#x65;&#64;&#x65;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#x63;&#111;&#x6d;" >&#102;&#x61;&#107;&#x65;&#64;&#x65;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#x63;&#111;&#x6d; <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 <h3 id="带格式化的链接"><a href="#带格式化的链接" class="headerlink" title="带格式化的链接"></a>带格式化的链接</h3><p>强调 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。<br><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[EFF](https://eff.org)**.</span><br><span class="line">This is the *[Markdown Guide](https://www.markdownguide.org)*.</span><br><span class="line">See the section on [`code`](#code).</span><br></pre></td></tr></table></figure></div>
 
-<p><strong>效果：</strong><br>I love supporting the <strong><a href="https://eff.org/">EFF</a></strong>.<br>This is the <em><a href="https://www.markdownguide.org/">Markdown Guide</a></em>.<br>See the section on <a href="#code"><code>code</code></a>.</p>
+<p><strong>效果：</strong><br>I love supporting the <strong><a class="link"   href="https://eff.org/" >EFF <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong>.<br>This is the <em><a class="link"   href="https://www.markdownguide.org/" >Markdown Guide <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></em>.<br>See the section on <a href="#code"><code>code</code></a>.</p>
 <hr>
 <h2 id="9-图片语法"><a href="#9-图片语法" class="headerlink" title="9.图片语法"></a>9.图片语法</h2><p>要添加图像，请使用感叹号 (!), 然后在方括号增加替代文本，图片链接放在圆括号里，括号里的链接后可以增加一个可选的图片标题文本。</p>
 <p>插入图片Markdown语法代码：<code>![图片alt](图片链接 &quot;图片title&quot;)</code>。</p>
 <p>对应的HTML代码：<code>&lt;img src=&quot;图片链接&quot; alt=&quot;图片alt&quot; title=&quot;图片title&quot;&gt;</code></p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![这是图片](../gallery/weilai.jpg &quot;栗山未来&quot;)</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">![这是图片](../gallery/weilai.jpg &quot;栗山未来&quot;)</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong><br><img src="/../gallery/weilai.jpg" alt="这是图片" title="栗山未来"></p>
 <h3 id="链接图片"><a href="#链接图片" class="headerlink" title="链接图片"></a>链接图片</h3><p>给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[![咧嘴](..//gallery/liezui.jpg &quot;Shiprock&quot;)](https://markdown.com.cn)</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">[![咧嘴](..//gallery/liezui.jpg &quot;Shiprock&quot;)](https://markdown.com.cn)</span><br></pre></td></tr></table></figure></div>
 
 <p><a href="https://markdown.com.cn/"><img src="/../gallery/liezui.jpg" alt="咧嘴" title="Shiprock"></a></p>
 <hr>
@@ -205,7 +227,7 @@
 </code></pre>
 <p><strong>效果：</strong><br>* Without the backslash, this would be a bullet in an unordered list.</p>
 <p>以下列出的字符都可以通过使用反斜杠字符从而达到转义目的。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Character	Name</span><br><span class="line">\	        backslash</span><br><span class="line">`	        backtick (see also escaping backticks in code)</span><br><span class="line">*	        asterisk</span><br><span class="line">_	        underscore</span><br><span class="line">&#123; &#125;	        curly braces</span><br><span class="line">[ ]	        brackets</span><br><span class="line">( )	        parentheses</span><br><span class="line">#	        pound sign</span><br><span class="line">+	        plus sign</span><br><span class="line">-	        minus sign (hyphen)</span><br><span class="line">.	        dot</span><br><span class="line">!	        exclamation mark</span><br><span class="line">|	        pipe (see also escaping pipe in tables)</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">Character	Name</span><br><span class="line">\	        backslash</span><br><span class="line">`	        backtick (see also escaping backticks in code)</span><br><span class="line">*	        asterisk</span><br><span class="line">_	        underscore</span><br><span class="line">&#123; &#125;	        curly braces</span><br><span class="line">[ ]	        brackets</span><br><span class="line">( )	        parentheses</span><br><span class="line">#	        pound sign</span><br><span class="line">+	        plus sign</span><br><span class="line">-	        minus sign (hyphen)</span><br><span class="line">.	        dot</span><br><span class="line">!	        exclamation mark</span><br><span class="line">|	        pipe (see also escaping pipe in tables)</span><br></pre></td></tr></table></figure></div>
 
 
 <hr>
@@ -216,7 +238,7 @@
 <p><strong>效果：</strong><br><del>世界是平坦的。</del> 我们现在知道世界是圆的。</p>
 <h3 id="markdown-任务列表语法"><a href="#markdown-任务列表语法" class="headerlink" title="markdown 任务列表语法"></a>markdown 任务列表语法</h3><p>任务列表使您可以创建带有复选框的项目列表。在支持任务列表的Markdown应用程序中，复选框将显示在内容旁边。要创建任务列表，请在任务列表项之前添加破折号-和方括号[ ]，并在[ ]前面加上空格。要选择一个复选框，请在方括号[x]之间添加 x 。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [x] Write the press release</span><br><span class="line">- [ ] Update the website</span><br><span class="line">- [ ] Contact the media</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong></p>
 <ul>
@@ -228,11 +250,35 @@
 <p>-复制和粘贴表情符号</p>
 <p>-使用表情符号简码<br>一些Markdown应用程序允许您通过键入表情符号短代码来插入表情符号。这些以冒号开头和结尾，并包含表情符号的名称。</p>
 <p><strong>例子：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">去露营了！ :tent: 很快回来。</span><br><span class="line"></span><br><span class="line">真好笑！ :joy:</span><br></pre></td></tr></table></figure>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">去露营了！ :tent: 很快回来。</span><br><span class="line"></span><br><span class="line">真好笑！ :joy:</span><br></pre></td></tr></table></figure></div>
 
 <p><strong>效果：</strong><br>去露营了！ :tent: 很快回来。</p>
 <p>真好笑！ :joy:</p>
-]]></content>
+<h2 id="12-Folding-折叠模块"><a href="#12-Folding-折叠模块" class="headerlink" title="12.Folding 折叠模块"></a>12.Folding 折叠模块</h2><p>可以在这个模块下面嵌套其他模块或者文字，段落等,格式如下：  </p>
+<p><code>&#123;% folding [颜色]::[标题] %&#125;`
+`需要写的内容`
+`&#123;% endfolding %&#125;</code></p>
+<p>可以嵌套，颜色列表如下：<br>    yellow, blue, green, red, orange, pink, cyan, white, black, gray</p>
+<h3 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% folding blue::折叠 测试： 点击查看更多 %&#125;</span><br><span class="line"></span><br><span class="line">内容</span><br><span class="line"></span><br><span class="line">&#123;% note A  %&#125;</span><br><span class="line">A 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note B  %&#125;</span><br><span class="line">B 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h3><details class="blue"><summary><i class="fa-solid fa-chevron-right"></i>折叠 测试： 点击查看更多 </summary>
+              <div class='content'>
+              <p>内容</p><div class="note note-A"><p>A 提示块标签</p></div><div class="note note-B"><p>B 提示块标签</p></div>
+              </div>
+            </details>
+
+<hr>
+<h2 id="13-Tabs-分栏模块"><a href="#13-Tabs-分栏模块" class="headerlink" title="13.Tabs 分栏模块"></a>13.Tabs 分栏模块</h2><p>通过本模块可以在页面中添加多个栏目，用户可以通过点击标签页来切换内容。<br>使用 Tabs 模块需要在 markdown 中按照以下格式编写：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs 页面内不重复的ID %&#125;</span><br><span class="line">&lt;!-- tab 栏目1名称 --&gt;</span><br><span class="line">内容</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&lt;!-- tab 栏目2名称 --&gt;</span><br><span class="line">内容</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure></div>
+
+<p>其中，页面内不重复的ID 为你为这个选项卡创建的唯一标识符，可以随便取。</p>
+<p>每个栏目内容使用 <!-- tab 栏目名称 --> 和 <!-- endtab --> 来定义。</p>
+<h3 id="例子-1"><a href="#例子-1" class="headerlink" title="例子"></a>例子</h3><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tabs First unique name %&#125;</span><br><span class="line">&lt;!-- tab First Tab--&gt;</span><br><span class="line">**This is Tab 1.**</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab Second Tab--&gt;</span><br><span class="line">**This is Tab 2.**</span><br><span class="line"></span><br><span class="line">This is Tab 2.</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab Third Tab--&gt;</span><br><span class="line">**This is Tab 3.**</span><br><span class="line"></span><br><span class="line">This is Tab 3.</span><br><span class="line"></span><br><span class="line">This is Tab 3.</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="结果-1"><a href="#结果-1" class="headerlink" title="结果"></a>结果</h3><div class="tabs" id="tab-first-unique-name"><ul class="nav-tabs"><li class="tab active"><a class="#first-unique-name-1">First Tab</a></li><li class="tab"><a class="#first-unique-name-2">Second Tab</a></li><li class="tab"><a class="#first-unique-name-3">Third Tab</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p>
+<p>This is Tab 2.</p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p>
+<p>This is Tab 3.</p>
+<p>This is Tab 3.</p></div></div></div>]]></content>
       <tags>
         <tag>Markdown</tag>
       </tags>
@@ -240,6 +286,21 @@
   <entry>
     <title>Hello World</title>
     <url>/2023/03/09/hello-world/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="Folding-折叠模块"><a href="#Folding-折叠模块" class="headerlink" title="Folding 折叠模块"></a>Folding 折叠模块</h1><p>可以在这个模块下面嵌套其他模块或者文字，段落等,格式如下：  </p>
+<p><code>&#123;% folding [颜色]::[标题] %&#125;`
+`需要写的内容`
+`&#123;% endfolding %&#125;</code></p>
+<p>可以嵌套，颜色列表如下：<br>    yellow, blue, green, red, orange, pink, cyan, white, black, gray</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% folding blue::折叠 测试： 点击查看更多 %&#125;</span><br><span class="line"></span><br><span class="line">内容</span><br><span class="line"></span><br><span class="line">&#123;% note A  %&#125;</span><br><span class="line">A 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note B  %&#125;</span><br><span class="line">B 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure></div>
+
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><details class="blue"><summary><i class="fa-solid fa-chevron-right"></i>折叠 测试： 点击查看更多 </summary>
+              <div class='content'>
+              <p>内容</p><div class="note note-A"><p>A 提示块标签</p></div><div class="note note-B"><p>B 提示块标签</p></div>
+              </div>
+            </details>
+
+<hr>
+<p>Tabs 分栏模块</p>
+]]></content>
   </entry>
 </search>
